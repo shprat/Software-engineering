@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../../assets/styles/styles.css"/>
+  <title>Bug World - Settings</title>
+</head>
+<body>
+<h1>Settings</h1>
+<div id="error"></div>
+<div class="app">
+
+  <form id="firstForm" action="simulation.html" method="post">
+
+    <div class="row mb-3">
+    <label class="input-group-text" for="inputGroupFile02">Please upload a world map file:</label>
+    <div class="col-sm-10">
+    <input type="file" class="form-control" id="inputGroupFile02" multiple required accept=".txt,.world">
+    </div>
+    
+  </div>
+
+
+  <div class="row mb-3">
+    <label class="input-group-text" for="inputGroupFile03">Please upload a bug assembler source code file #1 (for red bugs):</label>
+    <div class="col-sm-10">
+    <input type="file" class="form-control" id="inputGroupFile03" multiple required accept=".txt,.buggy">
+    </div>
+    
+  </div>
+
+
+  <div class="row mb-3">
+    <label class="input-group-text" for="inputGroupFile04">Please upload a bug assembler source code file #2 (for black bugs):</label>
+    <div class="col-sm-10">
+    <input type="file" class="form-control" id="inputGroupFile04" multiple required accept=".txt,.buggy">
+    </div>
+    
+  </div>
+
+  <div class="row mb-3">
+
+
+    <span class="input-group-text">Please input the number of iterations (minimum 100):</span>
+<input type="number" aria-label="Number Of Iterations" class="form-control" id="iterations" min="100" required>
+
+
+
+  
+  </div>
+
+
+  <div class="row mb-3">
+
+    <label class="form-check-label" for="flexSwitchCheckDefault">Do you want to log the results of the session?</label>
+
+      <div class="col-sm-10 offset-sm-2">
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            
+          </div>
+    </div>
+
+    <div class="d-grid gap-2 col-6 mx-auto container">
+        <input class="special-button" type="submit" value="Next" id="sButton"/>
+        
+      </div>
+    
+    
+  </div>
+  </form>
+
+ 
+
+ 
+
+  
+  
+
+  
+
+  <script src="../../bugWorld/fileLogic.js"></script>
+
+
+</div>
+</body>
+</html>

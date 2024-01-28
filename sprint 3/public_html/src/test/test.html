@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../bugWorld/brainValidator.js"></script>
+    <script src="../bugWorld/worldValidator.js"></script>
+    
+	<title>Test Results</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f7f7f7;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			font-size: 28px;
+			text-align: center;
+			margin-top: 40px;
+		}
+		table {
+			width: 80%;
+			margin: 40px auto;
+			border-collapse: collapse;
+			background-color: #fff;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		}
+		th, td {
+			padding: 12px 15px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		th {
+			background-color: #444;
+			color: #fff;
+		}
+		.pass {
+			color: #27ae60;
+			font-weight: bold;
+		}
+		.fail {
+			color: #c0392b;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1>Test Results</h1>
+	<table>
+		<tr>
+			<th>Test Case</th>
+			<th>Result</th>
+			<th>Message</th>
+		</tr>
+		<script src="../bugWorld/testCases.js"></script>
+	</table>
+</body>
+</html>
