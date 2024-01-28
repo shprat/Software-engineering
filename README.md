@@ -1,1 +1,2 @@
 # Software-engineering
+This is an implementation of the bug world game using HTML, CSS, and Javascript. This project's purpose is to implement an assembler to parse bug instructions, a GUI for the simulator, and the actual simulator itself ability to upload them and pasrse through client side. In the first sprint I design the game from scratch but then in the second and the third sprint I am given another codebase which I have to optimize and improve.
